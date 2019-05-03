@@ -17,7 +17,6 @@ class HuffmanTree:
     def __init__(self,weightList):
         self.weightList = weightList
         self.HL = []
-        HuffmanTree.create(self)
         HuffmanTree.printitem(self)
     
     def create(self):
